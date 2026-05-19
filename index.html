@@ -2,22 +2,17 @@
 <html lang="es">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link href="./output.css" rel="stylesheet">
-
     <title>Test Divertido</title>
-
 </head>
 
-<body class="min-h-screen bg-gradient-to-br from-pink-100 via-fuchsia-50 to-purple-100 flex items-center justify-center p-4 overflow-hidden">
+<body class="min-h-screen bg-gradient-to-br from-pink-100 via-fuchsia-50 to-purple-100 flex justify-center p-4 overflow-y-auto">
 
-    <div class="w-full max-w-6xl bg-white rounded-[30px] shadow-2xl overflow-hidden">
+    <div class="w-full max-w-6xl bg-white rounded-[30px] shadow-2xl overflow-hidden my-6">
 
         <div class="bg-gradient-to-r from-fuchsia-600 via-pink-500 to-purple-600 px-6 py-5 text-center">
-
             <h1 class="text-4xl font-black text-white">
                 Test Divertido
             </h1>
@@ -25,18 +20,16 @@
             <p class="text-pink-100 mt-1 text-sm">
                 Descubre tu personalidad
             </p>
-
         </div>
 
         <div class="p-5 grid lg:grid-cols-3 gap-4">
-
-            <!-- SECTION 1 -->
 
             <div class="bg-pink-50 rounded-3xl p-5 border border-pink-100">
 
                 <div class="flex items-center gap-3 mb-5">
 
-                    <div class="w-10 h-10 rounded-xl bg-pink-500 text-white flex items-center justify-center font-bold">
+                    <div
+                        class="w-10 h-10 rounded-xl bg-pink-500 text-white flex items-center justify-center font-bold">
                         1
                     </div>
 
@@ -49,71 +42,60 @@
                 <div class="space-y-3">
 
                     <div class="flex items-center justify-between bg-white rounded-xl px-4 py-3">
-
                         <label id="label-vaca" for="vaca-value">
                             🐄 Vaca
                         </label>
 
                         <input type="number" id="vaca-value" min="1" max="5"
-                            class="w-14 h-10 rounded-lg border border-pink-200 text-center">
-
+                            class="w-14 h-10 rounded-lg border border-pink-200 text-center outline-none focus:ring-2 focus:ring-pink-400">
                     </div>
 
                     <div class="flex items-center justify-between bg-white rounded-xl px-4 py-3">
-
                         <label id="label-tigre" for="tigre-value">
                             🐅 Tigre
                         </label>
 
                         <input type="number" id="tigre-value" min="1" max="5"
-                            class="w-14 h-10 rounded-lg border border-pink-200 text-center">
-
+                            class="w-14 h-10 rounded-lg border border-pink-200 text-center outline-none focus:ring-2 focus:ring-pink-400">
                     </div>
 
                     <div class="flex items-center justify-between bg-white rounded-xl px-4 py-3">
-
                         <label id="label-oveja" for="oveja-value">
                             🐑 Oveja
                         </label>
 
                         <input type="number" id="oveja-value" min="1" max="5"
-                            class="w-14 h-10 rounded-lg border border-pink-200 text-center">
-
+                            class="w-14 h-10 rounded-lg border border-pink-200 text-center outline-none focus:ring-2 focus:ring-pink-400">
                     </div>
 
                     <div class="flex items-center justify-between bg-white rounded-xl px-4 py-3">
-
                         <label id="label-caballo" for="caballo-value">
                             🐎 Caballo
                         </label>
 
                         <input type="number" id="caballo-value" min="1" max="5"
-                            class="w-14 h-10 rounded-lg border border-pink-200 text-center">
-
+                            class="w-14 h-10 rounded-lg border border-pink-200 text-center outline-none focus:ring-2 focus:ring-pink-400">
                     </div>
 
                     <div class="flex items-center justify-between bg-white rounded-xl px-4 py-3">
-
                         <label id="label-mono" for="mono-value">
                             🐒 Mono
                         </label>
 
                         <input type="number" id="mono-value" min="1" max="5"
-                            class="w-14 h-10 rounded-lg border border-pink-200 text-center">
-
+                            class="w-14 h-10 rounded-lg border border-pink-200 text-center outline-none focus:ring-2 focus:ring-pink-400">
                     </div>
 
                 </div>
 
             </div>
 
-           
-
             <div class="bg-purple-50 rounded-3xl p-5 border border-purple-100">
 
                 <div class="flex items-center gap-3 mb-5">
 
-                    <div class="w-10 h-10 rounded-xl bg-purple-500 text-white flex items-center justify-center font-bold">
+                    <div
+                        class="w-10 h-10 rounded-xl bg-purple-500 text-white flex items-center justify-center font-bold">
                         2
                     </div>
 
@@ -126,71 +108,60 @@
                 <div class="space-y-3">
 
                     <div>
-
                         <label id="label-perro" for="perro" class="text-sm">
                             🐶 Perro
                         </label>
 
                         <input id="perro"
-                            class="w-full h-10 rounded-xl border border-purple-200 px-3 bg-white">
-
+                            class="w-full h-10 rounded-xl border border-purple-200 px-3 bg-white outline-none focus:ring-2 focus:ring-purple-400">
                     </div>
 
                     <div>
-
                         <label id="label-gato" for="gato" class="text-sm">
                             🐱 Gato
                         </label>
 
                         <input id="gato"
-                            class="w-full h-10 rounded-xl border border-purple-200 px-3 bg-white">
-
+                            class="w-full h-10 rounded-xl border border-purple-200 px-3 bg-white outline-none focus:ring-2 focus:ring-purple-400">
                     </div>
 
                     <div>
-
                         <label id="label-rata" for="rata" class="text-sm">
                             🐭 Rata
                         </label>
 
                         <input id="rata"
-                            class="w-full h-10 rounded-xl border border-purple-200 px-3 bg-white">
-
+                            class="w-full h-10 rounded-xl border border-purple-200 px-3 bg-white outline-none focus:ring-2 focus:ring-purple-400">
                     </div>
 
                     <div>
-
                         <label id="label-cafe" for="cafe" class="text-sm">
                             ☕ Café
                         </label>
 
                         <input id="cafe"
-                            class="w-full h-10 rounded-xl border border-purple-200 px-3 bg-white">
-
+                            class="w-full h-10 rounded-xl border border-purple-200 px-3 bg-white outline-none focus:ring-2 focus:ring-purple-400">
                     </div>
 
                     <div>
-
                         <label id="label-mar" for="mar" class="text-sm">
                             🌊 Mar
                         </label>
 
                         <input id="mar"
-                            class="w-full h-10 rounded-xl border border-purple-200 px-3 bg-white">
-
+                            class="w-full h-10 rounded-xl border border-purple-200 px-3 bg-white outline-none focus:ring-2 focus:ring-purple-400">
                     </div>
 
                 </div>
 
             </div>
 
-            
-
             <div class="bg-orange-50 rounded-3xl p-5 border border-orange-100">
 
                 <div class="flex items-center gap-3 mb-5">
 
-                    <div class="w-10 h-10 rounded-xl bg-orange-500 text-white flex items-center justify-center font-bold">
+                    <div
+                        class="w-10 h-10 rounded-xl bg-orange-500 text-white flex items-center justify-center font-bold">
                         3
                     </div>
 
@@ -203,58 +174,48 @@
                 <div class="space-y-3">
 
                     <div>
-
                         <label id="label-amarillo" for="amarillo" class="text-sm">
                             💛 Amarillo
                         </label>
 
                         <input id="amarillo"
-                            class="w-full h-10 rounded-xl border border-orange-200 px-3 bg-white">
-
+                            class="w-full h-10 rounded-xl border border-orange-200 px-3 bg-white outline-none focus:ring-2 focus:ring-orange-400">
                     </div>
 
                     <div>
-
                         <label id="label-naranja" for="naranja" class="text-sm">
                             🧡 Naranja
                         </label>
 
                         <input id="naranja"
-                            class="w-full h-10 rounded-xl border border-orange-200 px-3 bg-white">
-
+                            class="w-full h-10 rounded-xl border border-orange-200 px-3 bg-white outline-none focus:ring-2 focus:ring-orange-400">
                     </div>
 
                     <div>
-
                         <label id="label-blanco" for="blanco" class="text-sm">
                             🤍 Blanco
                         </label>
 
                         <input id="blanco"
-                            class="w-full h-10 rounded-xl border border-orange-200 px-3 bg-white">
-
+                            class="w-full h-10 rounded-xl border border-orange-200 px-3 bg-white outline-none focus:ring-2 focus:ring-orange-400">
                     </div>
 
                     <div>
-
                         <label id="label-rojo" for="rojo" class="text-sm">
                             ❤️ Rojo
                         </label>
 
                         <input id="rojo"
-                            class="w-full h-10 rounded-xl border border-orange-200 px-3 bg-white">
-
+                            class="w-full h-10 rounded-xl border border-orange-200 px-3 bg-white outline-none focus:ring-2 focus:ring-orange-400">
                     </div>
 
                     <div>
-
                         <label id="label-verde" for="verde" class="text-sm">
                             💚 Verde
                         </label>
 
                         <input id="verde"
-                            class="w-full h-10 rounded-xl border border-orange-200 px-3 bg-white">
-
+                            class="w-full h-10 rounded-xl border border-orange-200 px-3 bg-white outline-none focus:ring-2 focus:ring-orange-400">
                     </div>
 
                 </div>
@@ -264,12 +225,10 @@
         </div>
 
         <div class="pb-5 flex justify-center">
-
             <button onclick="resultados()"
                 class="bg-gradient-to-r from-fuchsia-600 via-pink-500 to-purple-600 text-white font-bold px-8 py-3 rounded-2xl hover:scale-105 transition">
                 ✨ Ver resultados
             </button>
-
         </div>
 
     </div>
